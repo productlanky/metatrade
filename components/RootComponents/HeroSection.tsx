@@ -138,7 +138,7 @@ export default function HeroSection() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mb-8 max-w-lg text-lg text-muted-foreground sm:text-xl"
           >
-            Access exclusive high-growth assets like <strong>Tesla</strong>, <strong>Neuralink</strong>, and AI derivatives. 
+            Access exclusive high-growth assets like <strong>Meta</strong>, <strong>Neuralink</strong>, and AI derivatives. 
             Real-time analytics and automated diversification in one powerful interface.
           </motion.p>
 
@@ -214,8 +214,8 @@ export default function HeroSection() {
               {/* Stock List */}
               <div className="space-y-3">
                 <StockItem 
-                  name="Tesla Inc." 
-                  ticker="TSLA" 
+                  name="META" 
+                  ticker="META" 
                   price="$248.50" 
                   change="+5.2%" 
                   icon={Zap} 
