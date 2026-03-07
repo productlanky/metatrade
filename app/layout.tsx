@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-title: "META | Blockchain Assets",
+  title: "META | Blockchain Assets",
   description: "Track your investments, monitor live stocks, and manage your portfolio in real-time with META.",
 };
 
@@ -35,33 +35,25 @@ export default function RootLayout({
           <Toaster />
         </ThemeProvider>
 
-         <Script
-          id="chaport-live-chat"
+        <Script
+          id="smartsupp-live-chat"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
-              (function(w,d,v3){
-                w.chaportConfig = {
-                  appId : '6973d1a744b652d05aab5173',
-                };
-
-                if(w.chaport) return;
-                v3 = w.chaport = {};
-                v3._q = [];
-                v3._l = {};
-                v3.q = function(){ v3._q.push(arguments) };
-                v3.on = function(e,fn){
-                  if(!v3._l[e]) v3._l[e] = [];
-                  v3._l[e].push(fn)
-                };
-                var s = d.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = 'https://app.chaport.com/javascripts/insert.js';
-                var ss = d.getElementsByTagName('script')[0];
-                ss.parentNode.insertBefore(s, ss);
-              })(window, document);
-            `,
+      var _smartsupp = _smartsupp || {};
+      _smartsupp.key = 'b9f009a8f7aa2b44f7a794d33774b131b9a34a91';
+      window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};
+        o._=[];
+        s=d.getElementsByTagName('script')[0];
+        c=d.createElement('script');
+        c.type='text/javascript';
+        c.charset='utf-8';
+        c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';
+        s.parentNode.insertBefore(c,s);
+      })(document);
+    `,
           }}
         />
       </body>
