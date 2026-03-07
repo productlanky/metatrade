@@ -32,7 +32,7 @@ type Company = "tesla" | "spaceX" | "neuralink" | "boring";
 
 
 const COMPANIES = [
-  { id: "tesla", name: "Tesla", ticker: "TSLA", icon: Zap, color: "text-amber-500", bg: "bg-amber-500/10" },
+  { id: "tesla", name: "Meta", ticker: "META", icon: Zap, color: "text-amber-500", bg: "bg-amber-500/10" },
   { id: "spaceX", name: "SpaceX", ticker: "SPX", icon: Rocket, color: "text-blue-500", bg: "bg-blue-500/10" },
   { id: "neuralink", name: "Neuralink", ticker: "NRLK", icon: BrainCircuit, color: "text-purple-500", bg: "bg-purple-500/10" },
   {

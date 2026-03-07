@@ -43,7 +43,7 @@ export default function AdminUserStocksPage({ params }: PageProps) {
               User Stocks
             </h1>
             <p className="mt-1 text-sm text-white/70">
-              Track this user&apos;s Tesla, SpaceX and Neuralink positions,
+              Track this user&apos;s Meta, SpaceX and Neuralink positions,
               exposure and historical purchases.
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function AdminUserStocksPage({ params }: PageProps) {
                   Stocks Overview
                 </h2>
                 <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
-                  All equity purchases for Tesla, SpaceX and Neuralink are
+                  All equity purchases for Meta, SpaceX and Neuralink are
                   aggregated below, including live valuation and historical
                   trades.
                 </p>
