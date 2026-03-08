@@ -154,14 +154,14 @@ export default function Footer() {
                 All Systems Operational
               </div>
 
-              <div className="space-y-1">
+              {/* <div className="space-y-1">
                 <p className="text-xs text-muted-foreground">Support Line:</p>
                 <p className="text-sm font-medium text-foreground">+1 (888) 123-4567</p>
               </div>
               <div className="space-y-1">
                 <p className="text-xs text-muted-foreground">Email:</p>
                 <p className="text-sm font-medium text-foreground">support@{companyName.toLowerCase()}.com</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
