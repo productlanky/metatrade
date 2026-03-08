@@ -66,7 +66,7 @@ export default function Navbar() {
           {/* Logo Section */}
           <Link href="/" className="flex items-center gap-3 group pl-2">
             <Image
-              src="/images/icon/logo.png" // Ensure this path is correct
+              src="/images/icon/logos.png" // Ensure this path is correct
               alt="Logo"
               height={48}
               width={48}

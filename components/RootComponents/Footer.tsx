@@ -63,7 +63,7 @@ export default function Footer() {
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2 group">
               <Image
-                src="/images/icon/logo.png" // Ensure this path is correct
+                src="/images/icon/logos.png" // Ensure this path is correct
                 alt="Logo"
                 height={48}
                 width={48}
