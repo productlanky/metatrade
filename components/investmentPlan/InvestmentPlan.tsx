@@ -212,8 +212,7 @@ export default function InvestmentPlansPage({ slug }: SlugProp) {
           const isActive = investment === plan.id;
           const isProcessing = investing === plan.id;
           const hasBalance = balance >= plan.min_amount;
-          const projectedReturn = Math.floor(plan.min_amount + 10000);
-          // Math.floor(plan.min_amount * (1 + plan.interest_rate));
+          const projectedReturn = Math.floor(plan.min_amount * 10);
 
           return (
             <div
