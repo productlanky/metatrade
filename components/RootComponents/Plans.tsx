@@ -35,7 +35,7 @@ const PlanContent = [
     type: "Elite",
     amount: "50,000",
     description: "Maximum leverage & returns.",
-    offers: ["Max Investment: $150,000", "10% Referral Bonus", "150,000 ROI", "10% Daily Accrual"],
+    offers: ["Max Investment: $150,000", "10% Referral Bonus", "500,000 ROI", "10% Daily Accrual"],
     highlight: false,
     color: "bg-emerald-500",
   },
