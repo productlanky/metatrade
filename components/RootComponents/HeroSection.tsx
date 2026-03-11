@@ -214,8 +214,8 @@ export default function HeroSection() {
               {/* Stock List */}
               <div className="space-y-3">
                 <StockItem 
-                  name="Tesla" 
-                  ticker="TSLA" 
+                  name="Meta" 
+                  ticker="META" 
                   price="$248.50" 
                   change="+5.2%" 
                   icon={Zap} 
