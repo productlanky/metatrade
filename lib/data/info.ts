@@ -1,4 +1,4 @@
-export const companyName = "META";
+export const companyName = "Profit Domain";
 
 export const tierList: {
   name: "Bronze" | "Silver" | "Gold" | "Platinum" | "Diamond";
@@ -55,7 +55,7 @@ export const plan = [
     referral_bonus: 0.02, // 2%
     interest_rate: 0.1, // 10% ROI
     daily_roi: 0.03, // 3% per day
-    duration_days: 30,
+    duration_days: 5,
   },
   {
     id: "2",
@@ -67,7 +67,7 @@ export const plan = [
     referral_bonus: 0.04, // 4%
     interest_rate: 0.15, // 15% ROI
     daily_roi: 0.05, // 5% per day
-    duration_days: 45,
+    duration_days: 5,
   },
   {
     id: "3",
@@ -79,7 +79,7 @@ export const plan = [
     referral_bonus: 0.06, // 6%
     interest_rate: 0.2, // 20% ROI
     daily_roi: 0.07, // 7% per day
-    duration_days: 60,
+    duration_days: 5,
   },
   {
     id: "4",
@@ -91,6 +91,6 @@ export const plan = [
     referral_bonus: 0.1, // 10%
     interest_rate: 0.3, // 30% ROI
     daily_roi: 0.1, // 10% per day
-    duration_days: 90,
+    duration_days: 5,
   },
 ];
