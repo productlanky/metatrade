@@ -15,7 +15,7 @@ import {
     STOCKLOG_COLLECTION_ID,
     NOTIFICATION_COLLECTION,
     INVESTMENT_COLLECTION,
-    SHIPMENTS_COLLECTION_ID,
+    // SHIPMENTS_COLLECTION_ID,
 } from "@/lib/appwrite/client";
 import { Query } from "appwrite";
 
@@ -84,7 +84,7 @@ export default function UserDangerActions({
                 stockRes,
                 notifRes,
                 invesRes,
-                shipmentRes,
+                // shipmentRes,
             ] = await Promise.all([
                 databases.listDocuments(DB_ID, TRANSACTION_COLLECTION, [
                     Query.equal("userId", userId),
@@ -99,9 +99,9 @@ export default function UserDangerActions({
                     Query.equal("userId", userId),
                 ]),
                 // All shipments for this user
-                databases.listDocuments(DB_ID, SHIPMENTS_COLLECTION_ID, [
-                    Query.equal("userId", userId),
-                ]),
+                // databases.listDocuments(DB_ID, SHIPMENTS_COLLECTION_ID, [
+                //     Query.equal("userId", userId),
+                // ]),
             ]);
 
             const deletePromises: Promise<any>[] = [];
@@ -130,11 +130,11 @@ export default function UserDangerActions({
                 )
             );
 
-            shipmentRes.documents.forEach((doc) =>
-                deletePromises.push(
-                    databases.deleteDocument(DB_ID, SHIPMENTS_COLLECTION_ID, doc.$id)
-                )
-            );
+            // shipmentRes.documents.forEach((doc) =>
+            //     deletePromises.push(
+            //         databases.deleteDocument(DB_ID, SHIPMENTS_COLLECTION_ID, doc.$id)
+            //     )
+            // );
 
 
             // 2) Execute all deletes
